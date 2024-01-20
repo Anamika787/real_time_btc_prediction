@@ -8,7 +8,7 @@ format_string = "%Y-%m-%d"
 
 def connect(detailed=False, viz=True):
     #Database URI for data stored in mongodb from Kafka
-    mongo_uri = "mongodb+srv://manginaprabhat:mongodbpswd@cluster0.s1as72l.mongodb.net/?retryWrites=true&w=majority"    
+    mongo_uri = "mongodb+srv://username:pswd@cluster0.s1as72l.mongodb.net/?retryWrites=true&w=majority"    
 
     # Create a MongoDB client
     client = MongoClient(mongo_uri)
